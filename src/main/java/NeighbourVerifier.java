@@ -16,9 +16,7 @@ public class NeighbourVerifier {
             }
         }
         if (position_to_be_checked != feelings.size() - 1) {
-            if (feelings.get(position_to_be_checked + 1) != 1) {
-                return false;
-            }
+            return feelings.get(position_to_be_checked + 1) == 1;
         }
         return true;
     }
