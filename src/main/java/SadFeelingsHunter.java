@@ -2,7 +2,7 @@ import java.util.List;
 
 public class SadFeelingsHunter {
     public int FindSadFeeling(List<Integer> feelings, int starting_position_for_searching) {
-        Boolean sad_feeling_found = false;
+        boolean sad_feeling_found = false;
         int current_position;
         for (current_position = starting_position_for_searching;
              current_position < feelings.size();
