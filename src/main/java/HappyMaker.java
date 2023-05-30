@@ -17,9 +17,8 @@ public class HappyMaker {
         while (position_to_be_checked != -1) {
             if (!neighbourVerifier.CheckNeighbours(feelings, position_to_be_checked)) {
                 happyFeelingsInserter.InsertHappyFeelings(feelings, position_to_be_checked);
-            } else {
-                position_to_be_checked += 1;
             }
+            position_to_be_checked += 1;
             position_to_be_checked = sadFeelingsHunter.FindSadFeeling(feelings, position_to_be_checked);
         }
     }

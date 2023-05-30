@@ -1,6 +1,8 @@
 import java.util.List;
 
-public class NeighbourVerifier {//returns true if we can jump over the current feeling
+public class NeighbourVerifier {
+
+    //returns true if we can jump over the current feeling
 
     //we can jump over the current feeling if the current feeling is different from -1 or
     //equal to -1 but surrounded by 1
